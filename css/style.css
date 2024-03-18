@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+h4 {
+    transform: translate(-50%, -50%);
+    top: 25%;
+    left: 34.2%;
+    position: fixed;
+    font-size: 12px;
+    color: #777;
+}
+.form{
+    transform: translate(-50%, -50%);
+    top: 30%;
+    left: 50%;
+    position: fixed;
+    width: 600px;
+    padding: 30px 0;
+    display: flex;
+    gap: 10px;
+    outline: none;
+}
+
+.form input{
+    padding-left: 8px;
+    width: 530px;
+    border-radius: 8px;
+    outline-color: rgb(4, 121, 237);
+    border: 2px solid #ccc
+}
+.form button{
+    color: #fff;
+    font-size: 14px;
+    flex: 1;
+    padding: 12px;
+    width: 30px;
+    border-radius: 8px;
+    background-color: rgb(4, 121, 237);
+    border: 1px solid rgb(4, 121, 237);
+    outline: none;
+    transition: .25s ease;
+}
+.form button:hover{
+    transition: all .3s linear;
+    box-shadow: 1px 1px 18px rgb(4, 121, 237);
+}
+.form input:focus{
+    box-shadow: 0 0 0 2.5px #a7d3ff;
+}
+.table{
+    transform: translate(-50%, -50%);
+    top: 45%;
+    left: 50%;
+    position: fixed;
+    width: 500px;
+    text-align: left;
+    border-collapse: collapse;
+    border-radius: 12px 12px 0 0;
+    overflow: hidden;
+    background-color: hsl(0, 0%, 90%);
+}
+tbody{
+    background-color: #fff;
+}
+
+
+.check {
+    transform: translate(-50%, -50%);
+    top: 37%;
+    left: 10%;
+    position: fixed;
+}
+
+.button {
+    transform: translate(-50%, -50%);
+    top: 37%;
+    left: 1040px;
+    position: fixed;
+    border: 2px solid #fff;
+    background-color: #fff;
+}
+
+.btn-danger{
+    border: 2px solid #fff;
+    background-color: #fff;
+}
